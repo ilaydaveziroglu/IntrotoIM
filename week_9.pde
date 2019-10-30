@@ -8,7 +8,7 @@ void setup() {
   
  
   for ( int i=0; i < 10; i++) {
-   float x = random(20,380);
+    float x = random(20,380);
     float y = random(20,480);
     float radius = random(30,120);
     println("x =" + x + "y=" + y);
@@ -18,6 +18,5 @@ void setup() {
     noFill();
     ellipse(0, 0,radius*2, radius*2);
     popMatrix();
-    
   }
 }
