@@ -1,1 +1,1 @@
-
+For this project, I tried to recreate an old computer graphics art. The example I chose had 10 random circles inside a rectangle. I randomized the radius and the place that the circle will appear within the rectangle. With putting this inside a for loop, I didn`t had the write the code ten times all over again.
