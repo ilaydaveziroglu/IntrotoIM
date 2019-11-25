@@ -1,19 +1,11 @@
 Final Project Proposal
 
-Project description
-Rough sketch of the entire project (including equipment and any other requirements such as enclosures, frames, things that are moved, driven, thrown or launched). This is to give us an idea of the space and location requirements
-Block diagram of the hardware including sensors, motors, speakers, etc.
-List of parts you need that are not in your kit
-Description of the Arduino program 
-Description of the Processing program 
-Things you need to learn that you don’t yet know
-Areas of greatest concern
 
 INTRODUCTION:
-I would like to do a game similar to whac-a-mole where you will have a buttons to control it. I was imagining that with Processing, I can display the 'moles' on the screen and with the help of Arduino, I can have buttons that you will push when the moles appear on the screen. It will have five holes with diffferent colors on the screen and I will have five respective buttons with different colors for the holes.
+I would like to do a game similar to whac-a-mole where you will have a buttons to control it. I was imagining that with Processing, I can display the 'moles' on the screen and with the help of Arduino, I can have buttons that you will push when the moles appear on the screen. It will have five holes with diffferent colors on the screen and I will have five respective buttons with different colors for the holes. The player will try to press on the right button when a 'mole' apperars inside a hole. Every level will have 10-12 moles popping up and the player will have the freedom to give two wrong answers before they ran out of lives. I'm want to go for an old look like the game console in the 1980s. So if it is possible I want the game visuals to be in big pixels.
 
 THINGS I NEED:
-It will require a computer screen and then it will have some button in the front. I'm want to aim an old look like the game console in the 1980s. Maybe a smaller version of it. For my project I need couple buttons with the Arduino. I suppose I have everything I need in my kit.
+It will require a computer screen and then it will have some button in the front.  Maybe a smaller version of it. For my project I need couple buttons with the Arduino. I suppose I have everything I need in my kit.
 
 DESCRIPTION OF MY PROGRAMS:
 My Processing program will be displaying the holes and the moles on the screen and it will also dispaly the score board up top. There will be different levels, after hitting 10-12 moles, the player will advance to the next level. Every level, the moles will change location faster. My Arduino program will be talking to the Processing program and reporting back if the right button is pressed.
