@@ -1,7 +1,5 @@
 Final Project Proposal
 
-
-
 Project description
 Rough sketch of the entire project (including equipment and any other requirements such as enclosures, frames, things that are moved, driven, thrown or launched). This is to give us an idea of the space and location requirements
 Block diagram of the hardware including sensors, motors, speakers, etc.
@@ -12,3 +10,10 @@ Things you need to learn that you don’t yet know
 Areas of greatest concern
 
 
+I would like to do a game similar to whack-a-mole where you will have a buttons to control it. I was imagining that with Processing, I can display the 'moles' on the screen and with the help of Arduino, I can have button that you will push when the moles appear on the screen. It will require a computer screen and then it will have some button in the front. I'm want to aim an old look like the game console in the 1980s. Maybe a smaller version of it. For my project I need couple buttons with the Arduino. I suppose I have everything I need in my kit.
+
+My Processing program will be displaying the holes and the moles on the screen and it will also dispaly the score board up top. There will be different levels, after hitting 10-12 moles, th eplayer will advamced to the next level. Every level the moles will change place faster. My Arduino program will be talking to the Processing program and reporting back if the right button is pressed.
+
+I don't know how to keep the score board for the game and I don't know how to asses if the player is making mistakes so I can end the game or give them another try.
+
+I think I'm concerned about the whole coding part, I don't think I have a specific concern other than. I don't know where to start with the whole project.
