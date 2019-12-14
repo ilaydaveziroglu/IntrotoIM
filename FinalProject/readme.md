@@ -1,20 +1,35 @@
 Final Project
 Whack-a-mole : Guacamole Edition
 
+Overall project concept and description:
 
-My project started out as  making a whack-a-mole concept computer game as I actually started coding it it, and with the feedback and brainstorming I did with other people, it turned out to be something else. It still has some
+My project started out as  making a whack-a-mole concept computer game as I actually started coding it it, and with the feedback and brainstorming I did with other people, it turned out to be something else. It still has the concept of whack-a-mole by having a hole and picture popping up and popping down. Instead of having multiple holes, I only have one. Since I have only hole, I only needed one button. I used the same button to navigate between the main screen, game screen and game over screen. During the game, with this button you would press it whenever the guacamole bowl picture is up to score points. If you press it when the hole is clear, meaning the hole is white, you would lose a live. I gave the player 3 lives. While giving me feedback, one of my friend said that whack-a-mole has been done before and I should do a different theme while keeping a similar principle with it. He first suggested making it food themed as we talked more about it, we decided on guacamole because I LOVE avocados and guacamole. Because guacamole and whack-a-mole have a really similar spelling we thought it would be funny to do it guacamole themed. After this conversation, I decided to name the game Whack-a-mole: Guacamole Edition because even though I wanted to do an original theme because my inspiration was whack-a-mole, I wanted to keep that in the name and make it obvious that the game was a spin-off from it. This how the whole concept came together.
 
+Overall picture(s):
 
-Overall project concept and description
-Overall picture(s)
 System diagram of the hardware and software
+
 List of important parts (don’t include wires, resistors, etc.)
-Pictures of the electronics
- Code (with good comments, good variable names, proper indentation, etc.)
-Explain how your project works and how you built it.
-Discuss what problems you ran into and how you resolved them or worked
-around them
-Discuss feedback you received during user testing, and what changes you made
-Clean up your shelves (due December 14 at 6pm)
-The kit is yours to keep if you wish, along with any consumables you got from the lab. However if you don’t want this, please return as much as possible to the lab.
-You may keep any old projects. If you don’t want them, try to recycle as much as possible of reusable components. If you are unsure ask me for advice as to what is worth recycling.
+
+Explain how your project works and how you built it:
+
+For the project I only needed to build a box the place my red button. I wanted a simple look and I wanted people to figure out the instinctively. My original idea was to build something to give my computer an old game console look but because i wanted to implement a leaderboard, I needed the keyboard. During coding it, I ran into some problems that I couldn't resolve quickly and by the time I got them fixed, it was too late to implement the leaderboard so I ended up not needing the keyboard again. So, I made a box with one red button which I got the idea from my user feedback. to get the clean look I want, I used the laser cutter to make a box. It was a challenge because I didn't want the box to be huge so I had to be ultra precise to fit exactly the arduino and the cable.
+
+
+
+Discuss what problems you ran into and how you resolved them or worked around them:
+
+
+
+
+
+Discuss feedback you received during user testing, and what changes you made:
+
+First person, I who played my game was Jaisal and he played it when it was at a baby stage which had no color or style. He really liked the idea of putting a button instead of pressing the mouse or the keys on the computer like a traditional compıter game. He said having a big red button would make it really cool and more exciting because everyone loves pressing on big red buttons. Regarding, his comment on this, I tried to use the biggiest red button I could find. My plan was to make different levels for the game and the user would advamce to the next level after passing each level. He suggested that instead of making different levels, I should make a single game but it would get harder as you score more because he said that the game didn't really require different levels because there will no change in the game so it won't feel like you are advancing. His explanaion made a lot of sense to me and I asked a couple more people what would they prefer after they played, they said one game makes more sense. So I stick with the idea of having only one game but changing the difficulty as you score more.
+
+Second person who played my game was Greg. He tried the game the first time when there was no style to it but it had all of the changes the Jasial and other people offered to do. I was going to do a whack-a-mole themed computer game, while chatting with him on what kind a of theme it should have, he said that whack-a-mole has been done before and I should do a different theme while keeping a similar principle with it. He first suggested making it food themed as we talked more about it, we decided on guacamole because I LOVE avocados and guacamole. Because guacamole and whack-a-mole have a really similar spelling we thought it would be funny to do it guacamole themed. After this conversation, I decided to name the game Whack-a-mole: Guacamole Edition because even though I wanted to do an original theme because my inspiration was whack-a-mole, I wanted to keep that in the name and make it obvious that the game was a spin-off from it. I set the background the an avocado green and found relevant guacamole, nachos and avocado pictures to decorate my game screens. I went back to Greg after I was done with the user interface of my game. (Because I was not thinking ahead, I didn't film him before when I didn't made the changes but I felt like I needed to include this interaciton because his comments made a huge difference on how my game looked and how it going to be played.)
+
+Third person to play my game was Jack (our one and only lab assistant). In my game every time you press the button when the picture is not one screen you lose a 'life' but he pointed out that since this is not a game with actually humans getting hurt, he suggested that I would do a symbol rather than printing out 'Lives'. I agree with the idea, I really want to implement it but I havent been able to so far because I've had other problems.
+
+Besides these three people a lot of people played the game as it advanced more and more, and because I was never a 'gamer' when I was young and my exposure to the games are very limited so I tried to take into account everyone's comments to improve it.
+
