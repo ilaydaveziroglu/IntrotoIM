@@ -5,23 +5,23 @@ Overall project concept and description:
 
 My project started out as  making a whack-a-mole concept computer game as I actually started coding it it, and with the feedback and brainstorming I did with other people, it turned out to be something else. It still has the concept of whack-a-mole by having a hole and picture popping up and popping down. Instead of having multiple holes, I only have one. Since I have only hole, I only needed one button. I used the same button to navigate between the main screen, game screen and game over screen. During the game, with this button you would press it whenever the guacamole bowl picture is up to score points. If you press it when the hole is clear, meaning the hole is white, you would lose a live. I gave the player 3 lives. While giving me feedback, one of my friend said that whack-a-mole has been done before and I should do a different theme while keeping a similar principle with it. He first suggested making it food themed as we talked more about it, we decided on guacamole because I LOVE avocados and guacamole. Because guacamole and whack-a-mole have a really similar spelling we thought it would be funny to do it guacamole themed. After this conversation, I decided to name the game Whack-a-mole: Guacamole Edition because even though I wanted to do an original theme because my inspiration was whack-a-mole, I wanted to keep that in the name and make it obvious that the game was a spin-off from it. This how the whole concept came together.
 
-Overall picture(s):
+List of important parts (don’t include wires, resistors, etc.):
 
-System diagram of the hardware and software
-
-List of important parts (don’t include wires, resistors, etc.)
+My computer screen was displaying the game so it was a crucial part of the game. The box which was holding my red button was as important as the screen.
 
 Explain how your project works and how you built it:
 
 For the project I only needed to build a box the place my red button. I wanted a simple look and I wanted people to figure out the instinctively. My original idea was to build something to give my computer an old game console look but because i wanted to implement a leaderboard, I needed the keyboard. During coding it, I ran into some problems that I couldn't resolve quickly and by the time I got them fixed, it was too late to implement the leaderboard so I ended up not needing the keyboard again. So, I made a box with one red button which I got the idea from my user feedback. to get the clean look I want, I used the laser cutter to make a box. It was a challenge because I didn't want the box to be huge so I had to be ultra precise to fit exactly the arduino and the cable.
 
-
-
 Discuss what problems you ran into and how you resolved them or worked around them:
 
+Because I have never written written a game before, I didn't know how it should be written properly. I looked at many examples and tried to make it similar with them. Because I lacked the experience in it, at some parts of the code, the background, I had to repeat the same code in two places otherwise it would break the game and it wouldn't function the way I wanted it to. I couldn't figure out this problem by myself and I had to ask for Jack's help. 
 
+Another main problem I had was, the game would slow down whenever it was set to full screen. I couldn't figure it because I didn't have any delays at all so it didn't made sense that it was slowing. Finally, I friend suggested that it might be about the resolution of my computer. My customized my computer resolution before so it was not at the default setup and that was causing the problem because Processing was not able to handle the resolution size I set for myself. 
 
+My third big problem is that I managed to get Arduino talking to Processing. I was able to use the button to play to game but I couldn't figure out why I was not able to navigate through Game Screens using the button. I asked Jack to take a look, and it turns out that I made a one line mistake in the logic part of it and that was also figured out. 
 
+I obviously had other problems but they were not big things and figured them out by myself without asking external help. I wouuld say that these three problems were the ones that challenged me the most.
 
 Discuss feedback you received during user testing, and what changes you made:
 
